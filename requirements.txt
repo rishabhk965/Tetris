@@ -1,0 +1,9 @@
+Tetris game clone by Rishabh Kumar
+
+
+Requirements
+*************
+
+	1. Python should be installed in your pc.
+	2. Pygame module should be installed.
+	3. Any Text editor.
