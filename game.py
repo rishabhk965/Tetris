@@ -235,7 +235,7 @@ def draw_window(surface,BOX,score=0):
     surface.blit(label, (sx + 15, sy- 30))
     for i in range(len(BOX)):
         for j in range(len(BOX[i])):
-            pygame.draw.rect(surface, BOX[i][j], (top_left_x + j* 30+60, top_left_y + i * 30, 30, 30), 0)
+            pygame.draw.rect(surface, BOX[i][j], (top_left_x + j* 30, top_left_y + i * 30, 30, 30), 0)
     draw_BOX(surface, 20, 15)
     pygame.draw.rect(surface, (255, 255, 255), (top_left_x, top_left_y, game_width, game_height), 5)
 
